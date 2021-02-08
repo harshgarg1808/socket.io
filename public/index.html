@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js"></script>
+</head>
+<body>
+    <h1>Chatting App sample</h1>
+   
+    <div id="logibox">
+        <input  id="userName" placeholder="username">
+        <input type="password" id="password" placeholder="password">
+        <button id="btnStart">START</button>
+
+    </div>
+
+    <div id="chatbox">
+        <input id="inpToAll" placeholder="Send to(default everyone) ">
+        <input id="inpNewMsg" placeholder="Write message">
+        <button id="btnSendMsg">SEND</button>
+        <ul id="ulMsgs"></ul>
+    </div>
+
+</body>
+</html>
